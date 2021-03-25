@@ -1,4 +1,5 @@
 import createProducts from "./components/createProducts.js";
+import searchProducts from "./components/searchProducts.js"
 import displayMessage from "./components/displayMessage.js";
 
 const url = "https://t9jt3myad3.execute-api.eu-west-2.amazonaws.com/api/products";
@@ -11,7 +12,10 @@ const url = "https://t9jt3myad3.execute-api.eu-west-2.amazonaws.com/api/products
     console.log(json);
 
     const products = json.data;
- createProducts(products);
+    
+    createProducts(products);
+    searchProducts(products);
+
     }
     catch(error) {
         console.log(error);
