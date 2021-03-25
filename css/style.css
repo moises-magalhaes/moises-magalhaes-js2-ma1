@@ -61,9 +61,21 @@ h1 {
 }
 
 .message.error {
-	border-color: red;
-	color: red;
-	background: rgba(255, 0, 0, 0.05);
+    border-color: red;
+    color: white;
+    background: red;
+}
+
+.message.warning {
+    border-color: orange;
+    color: white;
+    background: orange;
+}
+
+.message.success {
+    border-color: green;
+    color: white;
+    background: green;
 }
 
 .btn {
