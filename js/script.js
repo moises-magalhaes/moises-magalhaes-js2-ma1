@@ -1,7 +1,7 @@
-import { displayError } from "./components/displayError.js";
+/*import { displayError } from "./components/displayError.js";
 import { searchPrices } from "./ui/search.js";
 import { products } from "./ui/products.js";
-import { displayMessage } from "./components/displayMessage.js";
+import displayMessage from "./components/displayMessage.js";
 import { getExistingFavs } from "./wishlist/wishlistFunctions.js";
 
 const url =
@@ -30,4 +30,4 @@ async function makeApiCall() {
 	}
 }
 
-makeApiCall();
+makeApiCall();*/

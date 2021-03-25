@@ -1,7 +1,5 @@
-export function displayMessage(results) {
-	const element = document.querySelector(".results");
-	console.log(element);
-	element.innerHTML = `<div class= "results not-found">Sorry! No products found.</div>`;
+export default function displayMessage(messageType, message, elementTarget) {
+    const element = document.querySelector(elementTarget);
+
+    element.innerHTML = `<div class="message ${messageType}">${message}</div>`;
 }
-
-
